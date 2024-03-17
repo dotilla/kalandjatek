@@ -2,7 +2,7 @@ import time
 
 
 def main():
-  print("Üdvözöllek Komorka Kalandjátékban!\n")
+  print("Üdvözöllek Komorka Kalandjátékában!\n")
   time.sleep(1)
   print(
       "Idén végre eljutottál a Fishing on Orfűre, nézzük, kivel futhatsz össze, miközben hajnali kettőkor gyrost vadászol!\n(Csak a számot írd be, majd üss entert!)\n"
