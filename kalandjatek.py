@@ -2,10 +2,10 @@ import time
 
 
 def main():
-  print("Üdvözöllek a Magyar Alternatív Rockzenekarok Kalandjátékban!\n")
+  print("Üdvözöllek Komorka Kalandjátékban!\n")
   time.sleep(1)
   print(
-      "Találkozz a legnagyobb frontemberekkel és hozz döntéseket velük való interakciók során!\n"
+      "Idén végre eljutottál a Fishing on Orfűre, nézzük, kivel futhatsz össze, miközben hajnali kettőkor gyrost vadászol!\n(Csak a számot írd be, majd üss entert!)\n"
   )
   time.sleep(1)
   print("Induljunk el!\n")
@@ -16,7 +16,7 @@ def main():
     print("1. Beck Zoli (30y)")
     print("2. Szendrői Csaba (Elefánt)")
     print("3. Bérczesi Robi (hiperkarma)")
-    print("4. Lovasi András (Kispál és a Borz, Kiscsillag)")
+    print("4. Csepella Olivér (Csaknekedkislány)")
     print("5. Krúbi")
     print("q. Kilépés")
 
@@ -29,7 +29,7 @@ def main():
     elif valasz == '3':
       berczesi_robi()
     elif valasz == '4':
-      lovasi_andras()
+      csepella_oliver()
     elif valasz == '5':
       krubi()
     elif valasz.lower() == 'q':
@@ -53,7 +53,7 @@ def beck_zoli():
 
   if valasz == '1':
     print(
-        "\nHát én panel gyerek vagyok, panelbe' nőttem föl, csajom is panel, nem laktunk soha máshol, csak panel lakásba' és állatira akartuk, hogy egyszer legyen egy ilyen házunk. Rátaláltunk Pécsen egy ilyen tök jó kis házra, amit asszem senki más nem akart volna megvenni, mer' videózöld színe volt, és kicsi is volt, meg mittudomén, de nem az volt a lényeg, hanem volt valami jó érzésünk vele kapcsolatban. Emlékszem, mikor megvettük a házat, akkor a Pinyon egyszer csak azt mondta, hogy milyen jó, hogy megvettük a házat, mer' látod mindenkinek kell, hogy legyen egy kis saját ege. Hogy nem arra gondolt, hogy házat vettél, vagy, hogy földet vettél, hanem, hogy állsz valahol és ha fölnézel, akkor az a kihasított darab, az egy picit a tiéd, szóval, hogy van honnan nézned fölfelé. És ez szerintem ilyen szép metaforája annak, hogy asszem a ház legfőbb értelme az valami ilyesmi, hogy figyelj, nem az udvart, vagy a kertet keríted le, vagy mittudomén, hanem van valami ilyen...ilyen helyed. Na, köszi, hogy meghallgattad, most mennem kell, koncertre készülünk."
+        "\nHát én panel gyerek vagyok, panelbe' nőttem föl, csajom is panel, nem laktunk soha máshol, csak panel lakásba', és állatira akartuk, hogy egyszer legyen egy ilyen házunk. Rátaláltunk Pécsen egy ilyen tök jó kis házra, amit asszem senki más nem akart volna megvenni, mer' videózöld színe volt, és kicsi is volt, meg mittudomén, de nem az volt a lényeg, hanem volt valami jó érzésünk vele kapcsolatban. Emlékszem, mikor megvettük a házat, akkor a Pinyon egyszer csak azt mondta, hogy milyen jó, hogy megvettük a házat, mer' látod mindenkinek kell, hogy legyen egy kis saját ege. Nem arra gondolt, hogy földet vettél, vagy, hogy házat vettél, hanem, hogy állsz valahol és ha fölnézel, akkor az a kihasított darab, az egy picit a tiéd, szóval, hogy van honnan nézned fölfelé. És ez szerintem ilyen szép metaforája annak, hogy asszem a ház legfőbb értelme az valami ilyesmi, hogy figyelj, nem az udvart, vagy a kertet keríted le, vagy mittudomén, hanem van valami ilyen...ilyen helyed. Na, köszi, hogy meghallgattad, most mennem kell, koncertre készülünk."
     )
   elif valasz == '2':
     print("Viszlát, Zoli!")
@@ -99,38 +99,44 @@ def berczesi_robi():
     print("Viszlát, Robi!")
 
 
-def lovasi_andras():
+def csepella_oliver():
+  print("\nCsepella Olivérrel, a Csaknekedkislány énekesével találkoztál!")
+  time.sleep(1)
   print(
-      "\nLovasi Andrással, a Kispál és a Borz/Kiscsillag énekessel találkoztál!"
+      "Csepella Olivér: Helló! Gondolom tudod rólam, hogy grafikus vagyok, de nem biztos, hogy ismered a diplomázásom pontos sztoriját, pedig vicces. Elmeséljem?"
   )
   time.sleep(1)
-  print("Lovasi András: Helló! Mit szeretnél tőlem kérdezni?")
-  time.sleep(1)
-  print("1. Beszélgetés")
-  print("2. Elbúcsúzás")
+  print("1. Mesélj, Olivér")
+  print("2. Tulajdonképpen már hallottam")
 
   valasz = input("Válasz: ")
 
   if valasz == '1':
-    print("Beszélgetés Lovasi Andrással...")
+    print(
+        "\nSzerettem volna képregénnyel diplomázni, aztán mikor le kellett adni, hogy ugye akkor mivel diplomázunk, konkrétan mit vállalunk, stb., akkor így elbizonytalanodtam, hogy biztos, hogy így meg tudom-e csinálni, meg ilyenek. Igazából jogosan bizonytalanodtam el, merhogy' így a védés reggelén nyolc órakor lett kész a cucc, de úgy, hogy segítettek a színezéssel azok, akiknek mittomén' év közben nyomtattam, vagy csak simán jófejek voltak. A mai napig lassan dolgozom, úgyhogy ha tovább folytatom a sztorizást, gondolom megint nem fogok aludni."
+    )
   elif valasz == '2':
-    print("Viszlát, Lovasi András!")
+    print("Viszlát, Olivér!")
 
 
 def krubi():
-  print("\nKrúbi!")
+  print(
+      "\nÖsszefutottál Krúbival, aki éppen egy vödörrel a fején próbál beleolvadni a környezetébe"
+  )
   time.sleep(1)
-  print("Krúbi: Hello! Mi a helyzet?")
+  print("Krúbi: Szia, figyelj, most annyira nem tudok beszélni")
   time.sleep(1)
-  print("1. Beszélgetés")
+  print("1. Miért bujkálsz, Krúbi?")
   print("2. Elbúcsúzás")
 
   valasz = input("Válasz: ")
 
   if valasz == '1':
-    print("Beszélgetés Krúbival...")
+    print(
+        "Már megint egy Fonogramot akarnak rám sózni, nem értik, hogy nem kell. Légyszi, segíts elrejtőzni!"
+    )
   elif valasz == '2':
-    print("Viszlát, Krúbi!")
+    print("Viszlát, Krúbi, jó bujkálást!")
 
 
 if __name__ == "__main__":
